@@ -1,0 +1,26 @@
+
+entity RecNotifsStats(rec_notifs_stats_quotidiennes) {
+    date                LocalDate required,
+    partner             String required,
+    useCase            String required,
+    status              String required,
+    fallbackReason     String,
+    nbNotifications    Long required,
+    nbDeviceDelivered Long required
+}
+
+entity SfmcNotifsStats(sfmc_stats_quotidiennes) {
+    date        LocalDate required,
+    eventType  String,
+    langue      String,
+    nbMessages Long required,
+    eventLabel String,
+    channel     String
+}
+
+// Set pagination options
+paginate RecNotifsStats with infinite-scroll
+paginate SfmcNotifsStats with infinite-scroll
+
+// Set service options to all
+service all with serviceImpl

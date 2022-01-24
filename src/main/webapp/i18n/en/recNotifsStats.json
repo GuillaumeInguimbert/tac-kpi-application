@@ -1,0 +1,30 @@
+{
+  "tacKpiApplicationApp": {
+    "recNotifsStats": {
+      "home": {
+        "title": "Rec Notifs Stats",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Create a new Rec Notifs Stats",
+        "createOrEditLabel": "Create or edit a Rec Notifs Stats",
+        "notFound": "No Rec Notifs Stats found"
+      },
+      "created": "A new Rec Notifs Stats is created with identifier {{ param }}",
+      "updated": "A Rec Notifs Stats is updated with identifier {{ param }}",
+      "deleted": "A Rec Notifs Stats is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Rec Notifs Stats {{ id }}?"
+      },
+      "detail": {
+        "title": "Rec Notifs Stats"
+      },
+      "id": "ID",
+      "date": "Date",
+      "partner": "Partner",
+      "useCase": "Use Case",
+      "status": "Status",
+      "fallbackReason": "Fallback Reason",
+      "nbNotifications": "Nb Notifications",
+      "nbDeviceDelivered": "Nb Device Delivered"
+    }
+  }
+}

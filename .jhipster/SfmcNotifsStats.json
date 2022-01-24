@@ -1,0 +1,42 @@
+{
+  "applications": "*",
+  "changelogDate": "20220124120929",
+  "dto": "no",
+  "embedded": false,
+  "entityTableName": "sfmc_stats_quotidiennes",
+  "fields": [
+    {
+      "fieldName": "date",
+      "fieldType": "LocalDate",
+      "fieldValidateRules": ["required"]
+    },
+    {
+      "fieldName": "eventType",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "langue",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "nbMessages",
+      "fieldType": "Long",
+      "fieldValidateRules": ["required"]
+    },
+    {
+      "fieldName": "eventLabel",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "channel",
+      "fieldType": "String"
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": false,
+  "name": "SfmcNotifsStats",
+  "pagination": "infinite-scroll",
+  "readOnly": false,
+  "relationships": [],
+  "service": "serviceImpl"
+}
